@@ -1,6 +1,6 @@
-package com.ecom.productservice;
+package com.ecom.productservice.repositories;
 
-import com.app.ecomservice.entity.Product;
+import com.ecom.productservice.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {

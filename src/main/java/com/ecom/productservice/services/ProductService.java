@@ -1,10 +1,11 @@
-package com.ecom.productservice;
+package com.ecom.productservice.services;
 
 
-import com.app.ecomservice.dto.request.ProductRequestDto;
-import com.app.ecomservice.dto.response.ProductResponseDto;
-import com.app.ecomservice.entity.Product;
-import com.app.ecomservice.repository.ProductRepository;
+
+import com.ecom.productservice.dtos.requsetdtos.ProductRequestDto;
+import com.ecom.productservice.dtos.responsedtos.ProductResponseDto;
+import com.ecom.productservice.entity.Product;
+import com.ecom.productservice.repositories.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

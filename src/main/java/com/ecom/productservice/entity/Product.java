@@ -1,4 +1,4 @@
-package com.ecom.productservice;
+package com.ecom.productservice.entity;
 
 
 import jakarta.persistence.Entity;

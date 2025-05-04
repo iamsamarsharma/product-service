@@ -1,4 +1,4 @@
-package com.ecom.productservice;
+package com.ecom.productservice.dtos.requsetdtos;
 
 
 import lombok.Data;
